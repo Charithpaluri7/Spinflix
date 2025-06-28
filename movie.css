@@ -1,0 +1,75 @@
+/* Reset and base */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ede7f6;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.movie-container {
+  background-color: #9575cd ;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Heading */
+.movie-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffd700;
+}
+
+/* Poster */
+.movie-container img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+}
+
+/* Overview Text */
+.movie-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 15px 0;
+  color: #e0e0e0;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #ff4757;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #ff6b81;
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+}
